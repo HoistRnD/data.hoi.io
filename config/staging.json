@@ -1,0 +1,14 @@
+{
+  "mongo": {
+    "db": "mongodb://db/hoist-staging"
+  },
+  "hashRounds": 14,
+  "redis": {
+    "host": "db"
+  },
+  "session": {
+    "secret": "hoist-staging",
+    "domain": ".placeholder.co.nz"
+  },
+  "debug": true
+}

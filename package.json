@@ -1,0 +1,92 @@
+{
+  "name": "data.hoi.io",
+  "version": "0.0.1",
+  "description": "The Hoist Data Platform",
+  "homepage": "http://hoistapps.com",
+  "private": true,
+  "author": {
+    "name": "Hoist Apps Ltd",
+    "email": "team@hoistapps.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hoist/data.hoi.io"
+  },
+  "bugs": {
+    "url": "https://github.com/hoist/data.hoi.io/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/hoist/data.hoi.io/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/app",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "config": {
+    "travis-cov": {
+      "threshold": 50
+    }
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "bcrypt": "*",
+    "coffee-script": "^1.7.1",
+    "config": "*",
+    "connect-redis": "*",
+    "custom-errors": "git://github.com/techjacker/custom-errors",
+    "express": "*",
+    "express-winston": "*",
+    "extend": "~1.2.1",
+    "forever": "~0.10.9",
+    "glob": "*",
+    "hoist-core": "git+ssh://git@github.com:hoist/hoist-core",
+    "lodash": "^2.4.1",
+    "mongodb": "^1.3.23",
+    "mongoose-eventify": "*",
+    "mongoose-q": "*",
+    "nano": "*",
+    "newrelic": "*",
+    "node-uuid": "*",
+    "passport": "*",
+    "pkginfo": "*",
+    "raygun": "*",
+    "redis": "~0.10.0",
+    "sandbox": "~0.8.3",
+    "superagent": "*",
+    "throat": "^1.0.0",
+    "underscore": "*",
+    "winston": "*",
+    "yaml": "*"
+  },
+  "devDependencies": {
+    "should": "*",
+    "sinon": "*",
+    "mocha": "*",
+    "zombie": "*",
+    "supertest": "*",
+    "nock": "*",
+    "querystring": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-watch": "*",
+    "grunt": "*",
+    "grunt-mocha-test": "*",
+    "blanket": "*",
+    "grunt-cli": "*",
+    "hooker": "*",
+    "chai-passport-strategy": "*",
+    "chai": "~1.8.1",
+    "connect": "*",
+    "cookie": "*",
+    "request": "~2.27.0",
+    "time-grunt": "~0.2.1",
+    "load-grunt-tasks": "~0.2.0",
+    "grunt-develop": "~0.2.2",
+    "chai-as-promised": "~4.1.0",
+    "travis-cov": "~0.2.4"
+  }
+}

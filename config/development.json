@@ -1,0 +1,12 @@
+{
+  "mongo": {
+    "db": "mongodb://db.vm/hoist-development"
+  },
+  "redis": {
+    "host": "db.vm"
+  },
+  "session": {
+    "secret": "hoist-development"
+  },
+  "debug": true
+}

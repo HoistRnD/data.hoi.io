@@ -1,0 +1,22 @@
+{
+  "data":{
+    "ruleTimeout":50000
+  },
+  "log": {
+    "targets": [{
+      "type": "file",
+      "options": {
+        "level": "debug",
+        "json": false,
+        "filename": "log/test-out.log"
+      }
+    }]
+  },
+  "session": {
+    "secret": "QxDb3f2n>ck:u4xPNmfN[PrE",
+    "domain": ""
+  },
+  "mongo": {
+    "db": "mongodb://localhost/hoist-test"
+  }
+}
